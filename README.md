@@ -8,11 +8,15 @@ The program will take in a .blif file which in this directory can be found in in
 When the program has successfully minimized the minterms to an SOP a file formatted in PLA called output.pla will be generated.
 
 The following code is how the BLIF file should be formatted where everything modifiable is in []:
+
 .model [file name]
+
 .inputs [character inputs (ex. A B C D)]
+
 .outputs [character output]
 (Please note I only accounted for the input file to have only one output)
 (This program is designed for QM Algorithm minimization so there should be only one output)
+
 .names [character inputs and outputs listed like in inputs example]
 [minterms and don't cares where 1 indicates a minterm and - indicates a don't care]
 (example of minterm 1 with 4 inputs: 0001 1)
