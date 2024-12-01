@@ -40,7 +40,7 @@ Another annoying issue was dealing with the input file, reading the minterms wou
 
 Before attemping this version of the project C was going to be used as the language but before I could get too far I couldn't get the BLIF files to be read. This lead me to choose Python since its environment is overall easier
 
-#Credit to GeekyBoy here on Github and his own QM solver
+# Credit to GeekyBoy here on Github and his own QM solver
 Made verifying that my algorithm was correct a lot easier as AI like ChatGPT proved useless since it kept returning wrong answers
 https://geeekyboy.github.io/Quine-McCluskey-Solver/
 
