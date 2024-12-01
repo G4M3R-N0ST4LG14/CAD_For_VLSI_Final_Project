@@ -1,0 +1,13 @@
+.model large_and_or
+.inputs A B C D
+.outputs f
+.names A B C D f
+0001 1
+0011 1
+0101 1
+0111 1
+1001 1
+0110 -
+1100 -
+1101 -
+.end
