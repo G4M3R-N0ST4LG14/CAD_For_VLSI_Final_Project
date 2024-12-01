@@ -24,16 +24,22 @@ The following code is how the BLIF file should be formatted where everything mod
 .end
 
 The following code is how the PLA output will look like:
+
 .i [number of inputs]
+
 .o F (Simply because I don't like it otherwise the output of the PLA will always be F)
 (This is because I prefer the output SOP format to be F(inputs) = SOP)
 (If you would like to change it to match whatever the input file has listed go to read_blif_file() and add it there)
+
 .ilb [list of inputs]
+
 .ob [character of outputs]
 [minterms]
 (0s indicate 'not', 1s indicate true, - indicate don't cares)
 (example of A'D: 0--1
 .e
+
+An example of an input and output file is also listed with the py file
 
 ## Issues with creating project
 The biggest issue with tackling this project was dealing with the Prime Implicants as making the algorithm find the essential implicants would require a lot of effort.
